@@ -1,0 +1,1 @@
+{"javascript":"/**\r\n * @param {number} x\r\n * @param {number} y\r\n * @return {number}\r\n */\r\nvar hammingDistance = function(x, y) {\r\n    var num = x ^ y\r\n    var count = 0\r\n    while (num) {\r\n        num = num & (num - 1)\r\n        count++\r\n    }\r\n    return count \r\n};"}

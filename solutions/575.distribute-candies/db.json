@@ -1,0 +1,1 @@
+{"javascript":"/**\r\n * @param {number[]} candies\r\n * @return {number}\r\n */\r\nvar distributeCandies = function(candies) {\r\n    var bigit = new Set(candies).size\r\n    var result = 0\r\n    var l = candies.length / 2\r\n    if(bigit >= l) {\r\n    \tresult = l\r\n    }else {\r\n    \tresult = bigit\r\n    }\r\n    return result\r\n};"}

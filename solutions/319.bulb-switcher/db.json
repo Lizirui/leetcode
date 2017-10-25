@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {number} n\n * @return {number}\n */\nvar bulbSwitch = function(n) {\n    return Math.floor(Math.sqrt(n))\n};"}

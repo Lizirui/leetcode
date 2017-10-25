@@ -1,0 +1,1 @@
+{"javascript":"/**\r\n * @param {number[]} nums\r\n * @return {number}\r\n */\r\nvar majorityElement = function(nums) {\r\n    nums = nums.sort()\r\n    var ln = nums.length\r\n    if (ln % 2 != 0) {\r\n        return nums[(ln / 2) | 0]\r\n    } else {\r\n        return nums[ln / 2]\r\n    }  \r\n};"}

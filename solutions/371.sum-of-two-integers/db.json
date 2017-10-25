@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {number} a\n * @param {number} b\n * @return {number}\n */\nvar getSum = function(a, b) {\n    if(b==0){return a};\n    if(a==0){return b};  \n\n    while(b!=0){\n        var carry = a&b;\n\n        a = a^b;        \n\n        b = carry << 1; \n    }\n    return a;\n};"}

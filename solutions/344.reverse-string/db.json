@@ -1,0 +1,1 @@
+{"javascript":"/**\r\n * @param {string} s\r\n * @return {string}\r\n */\r\nvar reverseString = function(s) {\r\n       var result = \"\"\r\n    var l = s.length\r\n    for(var i =0;i<l;i++){\r\n    \tresult = s[i] + result\r\n    }\r\n    return result \r\n};"}

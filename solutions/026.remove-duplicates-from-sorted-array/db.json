@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {number[]} nums\n * @return {number}\n */\nvar removeDuplicates = function(nums) {\n    if(nums.length == 0) {\n        return 0\n    }\n    var index = 0\n    for(let i = 1; i < nums.length;i++){\n        if(nums[index] != nums[i]) {\n            nums[++index] = nums[i]\n        }\n    }\n    return index + 1\n};"}

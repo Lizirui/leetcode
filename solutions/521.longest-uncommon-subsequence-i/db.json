@@ -1,0 +1,1 @@
+{"javascript":"/**\r\n * @param {string} a\r\n * @param {string} b\r\n * @return {number}\r\n */\r\nvar findLUSlength = function(a, b) {\r\n    var la = a.length\r\n    var lb = b.length\r\n    if(la != lb) {\r\n    \treturn la > lb?la:lb\r\n    }else {\r\n    \tif(a === b) {\r\n    \t\treturn -1\r\n    \t}else {\r\n    \t\treturn la\r\n    \t}\r\n    }   \r\n};"}

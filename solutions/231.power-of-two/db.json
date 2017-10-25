@@ -1,0 +1,1 @@
+{"javascript":"/**\r\n * @param {number} n\r\n * @return {boolean}\r\n */\r\nvar isPowerOfTwo = function(n) {\r\n    if (n <= 0) {\r\n        return false\r\n    }\r\n    var bigit = n\r\n    while (bigit % 2 == 0) {\r\n        bigit = bigit / 2\r\n    }\r\n    if (bigit == 1) {\r\n        return true\r\n    } else {\r\n        return false\r\n    }\r\n};"}

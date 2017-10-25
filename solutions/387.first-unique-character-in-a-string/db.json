@@ -1,0 +1,1 @@
+{"javascript":"/**\r\n * @param {string} s\r\n * @return {number}\r\n */\r\nvar firstUniqChar = function(s) {\r\n  for(var i = 0; i<s.length; i++) {  \r\n    if(s.lastIndexOf(s.charAt(i))==s.indexOf(s.charAt(i))) return i;  \r\n   }  \r\n   return -1;\r\n};"}

@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {number[]} prices\n * @return {number}\n */\nvar maxProfit = function(prices) {\n    var result = 0\n    for (var i = 0; i < prices.length; i++) {\n        if (prices[i] < prices[i + 1]) {\n            result = result + prices[i + 1] - prices[i]\n        }\n    }\n    return result\n};"}

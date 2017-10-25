@@ -1,0 +1,1 @@
+{"javascript":"/**\r\n * @param {number[]} nums\r\n * @return {number}\r\n */\r\nvar rob = function(nums) {\r\n    var a = 0\r\n    var b = 0\r\n    for (var i = 0; i < nums.length; i++) {\r\n        var m = a\r\n        var n = b\r\n        a = n + nums[i]\r\n        b = Math.max(m, n)\r\n    }\r\n    return Math.max(a, b)\r\n};"}

@@ -1,0 +1,1 @@
+{"javascript":"/**\r\n * @param {string} s\r\n * @return {string}\r\n */\r\nvar reverseWords = function(s) {\r\n    return s.split(' ').map(it => it.split('').reverse().join('')).join(' ')\r\n};"}

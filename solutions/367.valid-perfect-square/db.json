@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {number} num\n * @return {boolean}\n */\nvar isPerfectSquare = function(num) {\n    for(var i = 0; i*i<=num;i++){\n        if(i*i === num) {\n            return true\n        }\n    }\n    return false\n};"}

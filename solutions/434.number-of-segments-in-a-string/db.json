@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {string} s\n * @return {number}\n */\nvar countSegments = function(s) {\n    if(s == \"\") {\n        return 0\n    }\n    var ary = s.split(' ')\n    for(var i = 0;i<ary.length;i++) {\n        if(ary[i] == \"\"){\n            ary.splice(i,1)\n            i--\n        }\n    }\n   return ary.length \n};"}

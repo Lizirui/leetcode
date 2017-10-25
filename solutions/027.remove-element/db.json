@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {number[]} nums\n * @param {number} val\n * @return {number}\n */\nvar removeElement = function(nums, val) {\n    for(var i = 0; i < nums.length ; i++){\n        if(nums[i] === val) {\n            nums.splice(i,1)\n            i--\n        }\n    }\n    return nums.length\n};"}
