@@ -2,7 +2,7 @@
 
 > 用无后台架构(backend-free)的Vue单页应用来分享、呈现你的leetcode解题源码吧!
 
-[线上Demo在此](https://ma63d.github.io/leetcode-viewer)
+[线上Demo在此](https://lizirui.github.io/leetcode)
 
 
 
